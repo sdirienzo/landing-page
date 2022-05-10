@@ -208,4 +208,10 @@ a:visited,
 
 .footer {
   height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
 }
