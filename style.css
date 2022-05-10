@@ -44,6 +44,16 @@ ul {
   gap: 30px;
 }
 
+.btn {
+  width: 150px;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 24px;
+  cursor: pointer;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -63,14 +73,7 @@ ul {
 }
 
 .btn-signup-primary {
-  width: 150px;
-  font-size: 18px;
   border: none;
-  border-radius: 8px;
-  padding: 10px 24px;
-  cursor: pointer;
-  background-color: #3882f6;
-  color: #f9faf8;
 }
 
 .hero-main-right {
@@ -160,7 +163,47 @@ a:visited,
 }
 
 .signup {
-  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.call-to-action {
+  display: flex;
+  height: 50%;
+  width: 75%;
+  background-color: #3882f6;
+}
+
+.call-to-action-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  width: 67%;
+}
+
+.call-to-action-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+}
+
+.call-to-action-main-text {
+  font-size: 24px;
+  /* font-weight: 700; */
+  color: #f9faf8;
+}
+
+.call-to-action-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn-signup-secondary {
+  border: 2px solid #f9faf8;
 }
 
 .footer {
